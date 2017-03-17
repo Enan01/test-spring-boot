@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">
+    <diskStore path="resources/Tmp_EhCache" />
+
+    <cache name="incrementEmployees" eternal="false" maxElementsInMemory="3" overflowToDisk="true" diskPersistent="false"
+           timeToIdleSeconds="120" timeToLiveSeconds="60" memoryStoreEvictionPolicy="FIFO" />
+
+</ehcache>
