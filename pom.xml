@@ -8,7 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>spring-boot-ehcache</module>
-    </modules>
+		<module>spring-boot-reactor</module>
+	</modules>
     <packaging>pom</packaging>
 
 	<name>test-spring-boot</name>
@@ -44,6 +45,13 @@
                 <artifactId>ehcache</artifactId>
                 <version>2.10.3</version>
             </dependency>
+			<dependency>
+				<groupId>io.projectreactor</groupId>
+				<artifactId>reactor-bom</artifactId>
+				<version>Aluminium-SR1</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
         </dependencies>
     </dependencyManagement>
 

@@ -32,7 +32,8 @@ public class MyModelTest {
     }
 
     /**
-     * 测试ehcache的过期策略是否是针对key的，测试结果为：是针对key的，每个新put进去的key都是从put进去的时间开始计时。
+     * 测试ehcache的过期策略是否是针对key的
+     * 测试结果为：是针对key的，每个新put进去的key都是从put进去的时间开始计时。
      * @throws Exception
      */
     @Test
