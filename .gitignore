@@ -22,3 +22,5 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+spring-boot-ehcache/resources/
+spring-boot-reactor/src/test/
