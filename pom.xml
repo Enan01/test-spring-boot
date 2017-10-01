@@ -10,7 +10,8 @@
         <module>spring-boot-ehcache</module>
 		<module>spring-boot-reactor</module>
 		<module>spring-boot-activemq</module>
-	</modules>
+        <module>spring-boot-jpa</module>
+    </modules>
     <packaging>pom</packaging>
 
 	<name>test-spring-boot</name>
@@ -31,11 +32,6 @@
 
 	<dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-                <scope>runtime</scope>
-            </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
